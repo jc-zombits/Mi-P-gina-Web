@@ -1,0 +1,165 @@
+body {
+    background: #021526;
+    color: wheat;
+}
+
+#container-init {
+    background: #031e35;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#principal {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    padding: 0.5em;
+}
+
+.text-init {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    padding: 0.5em;
+    text-align: center;
+}
+
+#section-cont-1 {
+    display: flex;
+    color: #E2E2B6;
+}
+
+#section-cont-1 h2 {
+    font-size: 2em;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: orangered;
+}
+
+#section-cont-1 p {
+    font-size: 18px;
+    padding: 12px;
+    text-align: center;
+}
+
+#card-container {
+    width: 90vw;
+    margin: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards {
+    border: 2px solid #03346E;
+    border-radius: 5px;
+    margin: 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #E2E2B6;
+    transition: 1s;
+}
+
+.cards:hover {
+    background: #02244e;
+}
+
+.img-cards {
+    width: 15em;
+    height: 10em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
+.notice-container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.notice-container-1 h3 {
+    font-size: 2em;
+    padding: 0.5em;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.notice-container-1 p {
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1.5em;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.order-list {
+    width: 75vw;
+    margin: 30px;
+    padding: 20px;
+    font-size: 1.5em;
+    border: 1px solid #0d2b50;
+    display: flex;
+    justify-content: space-between;
+}
+
+#notice-container-2 {
+    margin: 40px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#notice-container-2 h3 {
+    font-size: 2em;
+    border: 1px solid rgb(17, 18, 99);
+    padding: 20px;
+    color: orangered;
+}
+
+#notice-container-2 h3:hover {
+    color: rgb(212, 84, 38);
+}
+
+#notice-container-2 p {
+    width: 30vw;
+    letter-spacing: 1px;
+    color: #32b630;
+}
+
+#notice-container-2 ul {
+    padding: 1em;
+    letter-spacing: 2px;
+}
+
+#notice-container-2 ul li {
+    padding: 8px;
+    color: #FFDB00;
+}
+
+#container-foo {
+    background-color: #034546;
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2em;
+}
+
+#container-foo h4 {
+    color: orangered;
+    font-size: 1.5em;
+}
+
+#container-foo a {
+    padding: 0.5em;
+}
+
+#container-foo a:hover {
+    color: orangered;
+}

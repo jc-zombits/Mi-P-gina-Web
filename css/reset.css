@@ -1,0 +1,108 @@
+/* Reset.css v1.0 */
+
+/* Reset de los márgenes, padding, bordes, y tamaño de fuente */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Estilos para asegurar que elementos HTML5 se comporten como bloques */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* Restablecimiento de la altura de línea para evitar inconsistencias */
+body {
+  line-height: 1;
+}
+
+/* Eliminar los estilos por defecto de las listas */
+ol, ul {
+  list-style: none;
+}
+
+/* Restablecer comillas en blockquotes y q */
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* Restablecer estilos de tablas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Asegurar que las imágenes no excedan el ancho del contenedor */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Asegurar que los enlaces no tengan decoración de texto predeterminada */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Restablecer las fuentes por defecto y asegurar herencia */
+body, input, textarea, button, select {
+  font-family: sans-serif;
+}
+
+/* Establecer un fondo y color de texto predeterminados */
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Eliminar estilos por defecto de botones y asegurar herencia */
+button, input, select, textarea {
+  font: inherit;
+}
+
+/* Asegurar que todos los botones sean visualmente consistentes */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  appearance: none;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Restablecer estilos por defecto de formularios */
+input, textarea, select {
+  appearance: none;
+  border-radius: 0;
+}
+
+/* Restablecer el estilo de enlaces visitados */
+a:visited {
+  color: inherit;
+}
+
+/* Asegurar que las tablas tomen el 100% del ancho disponible */
+table {
+  width: 100%;
+}
