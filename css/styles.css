@@ -3,6 +3,38 @@ body {
     color: wheat;
 }
 
+nav {
+    background-color: #031e35;
+}
+
+nav .navbar {
+    color: rgb(175, 51, 6);
+    display: flex;
+    padding: 1em;
+    justify-content: end;
+}
+
+nav .navbar li {
+    padding: 1em;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav .navbar li:hover {
+    text-shadow: 2px 2px 5px rgba(153, 150, 150, 0.5);
+}
+
+.division {
+    border: none;          /* Elimina el borde por defecto */
+    height: 2px;          /* Establece la altura de la línea */
+    background-color: #fce309; /* Color de la línea */
+    margin: 10px 0;       /* Margen superior e inferior */
+    width: 100%;           /* Ancho de la línea */
+    align-self: center;   /* Centra la línea */
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px 10px rgba(83, 109, 194, 0.5);
+}
+
 #container-init {
     background: #031e35;
     padding: 1em;
@@ -100,10 +132,10 @@ body {
 }
 
 .order-list {
-    width: 75vw;
+    width: 85vw;
     margin: 30px;
     padding: 20px;
-    font-size: 1.8em;
+    font-size: 1.2em;
     border: 1px solid #0d2b50;
     display: flex;
     justify-content: space-between;
