@@ -103,10 +103,11 @@ body {
     width: 75vw;
     margin: 30px;
     padding: 20px;
-    font-size: 1.5em;
+    font-size: 1.8em;
     border: 1px solid #0d2b50;
     display: flex;
     justify-content: space-between;
+    text-shadow: 2px 2px 5px rgba(214, 10, 10, 0.5);
 }
 
 #notice-container-2 {
@@ -143,6 +144,25 @@ body {
     color: #FFDB00;
 }
 
+#dapps-container {
+    width: 90vw;
+    display: flex;
+    margin: 3em;
+    padding: 2em;
+}
+
+#dapps-container img {
+    width: 25vw;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+#dapps-container p {
+    margin: 40px;
+    letter-spacing: 1px;
+    color: orangered;
+}
+
 #container-foo {
     background-color: #034546;
     padding: 2em;
@@ -158,6 +178,7 @@ body {
 
 #container-foo a {
     padding: 0.5em;
+    transition: 1s;
 }
 
 #container-foo a:hover {
