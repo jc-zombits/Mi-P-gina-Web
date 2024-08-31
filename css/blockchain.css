@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #251D3A; /* Color de fondo */
+    color: #FFFFFF; /* Color del texto */
+}
+
+nav {
+    background-color: #2A2550; /* Color de fondo del navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li {
+    flex: 1;
+}
+
+.navbar a {
+    display: block;
+    padding: 14px 20px;
+    color: #FF7700; /* Color del texto del navbar */
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #E04D01; /* Color al pasar el mouse */
+    color: #001E6C; /* Cambia el color del texto al pasar el mouse */
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #2A2550; /* Color de fondo del encabezado */
+    color: #FF7700; /* Color del texto del encabezado */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.galeria-imagenes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.galeria-imagenes img {
+    margin: 10px;
+    border: 2px solid #E04D01; /* Color de borde de las imágenes */
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.galeria-imagenes img:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px; /* Ancho máximo de la sección */
+    border: 1px solid #FF7700; /* Color de borde de la sección */
+    border-radius: 10px;
+    background-color: #2A2550; /* Color de fondo de la sección */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #251D3A; /* Color de fondo del footer */
+    color: #FF7700; /* Color del texto del footer */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
